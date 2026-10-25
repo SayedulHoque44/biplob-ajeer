@@ -36,7 +36,7 @@ const statusFor = (start: string, end: string) => {
   const now = new Date();
   const startDate = new Date(`${start}T00:00:00`);
   const endDate = new Date(`${end}T23:59:59`);
-  if (Number.isNaN(startDate.getTime()) || Number.isNaN(endDate.getTime())) return { status: "غير محدد", isActive: false };
+  if (Number.isNaN(startDate.getTime()) || Number.isNaN(endDate.getTime())) return { status: "ساري / فعال", isActive: true };
   if (now < startDate) return { status: "لم يبدأ", isActive: false };
   if (now > endDate) return { status: "منتهي", isActive: false };
   return { status: "ساري / فعال", isActive: true };
@@ -66,3 +66,4 @@ export async function getRecord(id: string): Promise<PermitRecord | undefined> {
     establishmentNumber: permit.establishmentNumber,
   };
 }
+

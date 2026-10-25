@@ -1,0 +1,34 @@
+{
+  "2529785962": {
+    "status": "ساري / فعال",
+    "isActive": true,
+    "permitNumber": "TW8397633",
+    "permitType": "تصريح إعارة أجير",
+    "startDate": "2026-10-20",
+    "endDate": "2027-01-23",
+    "workerName": "IRFAN ULLAH HASAN KHAN",
+    "idNumber": "2529785962",
+    "nationality": "باكستان",
+    "profession": "سائق شاحنه ثقيله",
+    "gender": "ذكر",
+    "birthDate": "-",
+    "establishmentName": "شركة غزيل بنت ضيف الله العتيبي القابضه",
+    "establishmentNumber": "1-2659487"
+  },
+  "1012345678": {
+    "status": "ساري / فعال",
+    "isActive": true,
+    "permitNumber": "TW1002233",
+    "permitType": "تصريح إعارة أجير",
+    "startDate": "2026-05-01",
+    "endDate": "2026-12-31",
+    "workerName": "AHMED ALI MOHAMMED",
+    "idNumber": "1012345678",
+    "nationality": "مصر",
+    "profession": "عامل بناء",
+    "gender": "ذكر",
+    "birthDate": "-",
+    "establishmentName": "مؤسسة النخبة للمقاولات",
+    "establishmentNumber": "1-7788990"
+  }
+}

@@ -1,0 +1,12 @@
+/node_modules
+/.next
+/out
+/build
+next-env.d.ts
+.DS_Store
+*.log
+.env*.local
+
+# Isolated Next.js development build cache
+.next-dev
+.vercel
